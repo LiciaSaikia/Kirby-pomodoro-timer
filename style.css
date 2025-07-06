@@ -1,0 +1,104 @@
+@import url('https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap');
+
+* {
+  box-sizing: border-box;
+}
+
+html, body {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+  width: 100%;
+  font-family: 'Press Start 2P', cursive;
+  background: url('assets/bg2.jpg') no-repeat center center fixed;
+  background-size: cover;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+body {
+  padding: 20px;
+}
+
+.container {
+  background: rgba(255, 240, 240, 0.784);
+  max-width: 420px;
+  width: 90%;
+  padding: 24px 20px;
+  border-radius: 22px;
+  box-shadow: 0 0 25px rgba(255, 170, 200, 0.7);
+  text-align: center;
+}
+
+h1 {
+  font-size: 25px;
+  margin-bottom: 15px;
+  color: #d63384;
+}
+
+h2 {
+  font-size: 12px;
+  margin-top: 10px;
+  margin-bottom: 25px;
+}
+
+.input-wrapper {
+  margin-bottom: 16px;
+}
+
+input[type="number"] {
+  font-family: 'Press Start 2P', cursive;
+  font-size: 14px;
+  width: 80px;
+  padding: 10px;
+  text-align: center;
+  border: 2px solid #ffd6e8;
+  border-radius: 12px;
+  background: #fff5f9;
+  color: #d63384;
+  accent-color: #ff66aa;
+}
+
+label {
+  font-size: 12px;
+  margin-left: 8px;
+  color: #d63384;
+}
+
+#mainPet {
+  width: 220px;
+  height: auto;
+  margin: 20px 0;
+}
+
+.timer {
+  font-size: 30px;
+  margin-bottom: 30px;
+  color: #ff4f8b;
+  text-shadow: 1px 1px 3px #f9c;
+}
+
+.buttons {
+  display: flex;
+  justify-content: center;
+  gap: 12px;
+  flex-wrap: wrap;
+}
+
+button {
+  padding: 12px 20px;
+  font-size: 13px;
+  background: #ffd6e8;
+  border: 2px solid #ff66aa;
+  border-radius: 50px;
+  cursor: pointer;
+  box-shadow: 0 4px 8px rgba(255, 192, 203, 0.5);
+  font-family: 'Press Start 2P', cursive;
+  transition: all 0.2s ease;
+}
+
+button:hover {
+  background: #fbb4cc;
+  transform: translateY(-2px);
+}

@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>Kirby lil Timer</title>
+  <link rel="stylesheet" href="style.css" />
+  <link href="https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap" rel="stylesheet" />
+</head>
+<body>
+  <div class="container">
+    <h1>THE KIRBY TIMER</h1>
+
+    <div class="input-wrapper">
+      <input id="timeInput" type="number" min="1" max="180" value="25" />
+      <label for="timeInput">min</label>
+    </div>
+
+    <img id="mainPet" src="assets/kirby.png" alt="Kirby" />
+    <h2 id="status">KIRBY IS HERE TO HELP YOU</h2>
+    <div class="timer" id="timer">25:00</div>
+
+    <div class="buttons">
+      <button onclick="startPomodoro()">Start Focus</button>
+      <button onclick="resetTimer()">Reset</button>
+    </div>
+
+    <audio id="victorySound" src="assets/victory.mp3" loop></audio>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>

@@ -1,0 +1,28 @@
+{
+  "name": "pixel-pet-timer",
+  "version": "1.0.0",
+  "description": "Pomodoro timer with a pixel pet",
+  "main": "main.js",
+  "scripts": {
+    "start": "electron .",
+    "build": "electron-builder"
+  },
+  "build": {
+    "appId": "com.pixelpet.timer",
+    "productName": "Pixel Pet Timer",
+    "files": [
+      "**/*"
+    ],
+    "directories": {
+      "buildResources": "assets"
+    },
+    "win": {
+        "icon": "assets/icon.png",
+      "target": "nsis"
+    }
+  },
+  "devDependencies": {
+    "electron": "^30.0.0",
+    "electron-builder": "^24.0.0"
+  }
+}
