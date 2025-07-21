@@ -1,10 +1,10 @@
-# 🎀 Kirby Pomodoro Timer ⏰
+# 🎀 Kirby Pomodoro Timer 
 
 A cute little productivity buddy powered by the Pomodoro technique — starring everyone's favorite pink hero, **Kirby**! Whether you're tackling homework, coding marathons, or just trying to stay focused, Kirby is here to cheer you on with smiles, encouragement, and break-time cuteness 🍓🌸
 
 ---
 
-## 💡 Features
+## Features
 
 - ⏳ **Pomodoro Cycle**: 25-minute focus timer + 5-minute short break + 15-minute long break after every 4 sessions.
 - 💖 **Kirby Animations**: Watch Kirby work, rest, and cheer you on throughout your sessions.
