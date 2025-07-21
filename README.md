@@ -15,9 +15,9 @@ A cute little productivity buddy powered by the Pomodoro technique — starring 
 
 ---
 
-## 🛠️ Installation
+## 🛠Installation
 
-### 💻 Desktop (Local App)
+### Desktop (Local App)
 
 ```bash
 git clone https://github.com/your-username/kirby-pomodoro-timer.git
